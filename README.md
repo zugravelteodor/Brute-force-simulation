@@ -1,2 +1,2 @@
-# Brute-force-simulation
-Simulate a brute force attack on your passwords.
+# Brute-force-simulation ⛈️
+This simple python script takes the user input and stores it in a variable, then using the random module it randomly checks if each password in the list is identical to the user input until a match is found.
