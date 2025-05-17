@@ -18,10 +18,10 @@ while True:
     a=random.choice(pas_list)
     
     if a == pas:
-        print(f"{Fore.GREEN}Password matched: {a} (attempts: {attempts}){Fore.RESET}")
         attempts += 1
+        print(f"{Fore.GREEN}Password matched: {a} (attempts: {attempts}){Fore.RESET}")
         break
 
     else:
-        print(f"{Fore.RED}Password failed to match: {a}{Fore.RESET}")
         attempts += 1
+        print(f"{Fore.RED}Password failed to match: {a}{Fore.RESET}")
